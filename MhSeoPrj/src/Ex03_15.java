@@ -2,12 +2,13 @@
 public class Ex03_15 
 {
 
-	public static void main() 
+	public static void main(String[] args) 
 	{
 		String str1 = "IT CookBook 입니다.";
 		String str2 = "10";
 		String str3 = "20";
 		
+		// 새로운 값으로 초기화
 		str1 = "Java 입니다.";
 		
 		System.out.println("str1 : " + str1);
