@@ -4,10 +4,12 @@ public class Ex05_09
 {
 
 	
+	private static Scanner sc;
+
 	public static void main(String[] args) 
 	{
 
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		int a;
 		
 		System.out.print("1~4 중에 선택하세요 : ");
