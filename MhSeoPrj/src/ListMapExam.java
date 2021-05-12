@@ -35,7 +35,7 @@ public class ListMapExam
 		
 		// 홍길동 정보 저장으로 인해 사용이 끝난 HashMap 변수 메모리에서 삭제
 		pMap = null;
-		
+		//핵심!!!!
 		Iterator<HashMap<String, String>> it = rList.iterator();
 		while(it.hasNext())
 		{
